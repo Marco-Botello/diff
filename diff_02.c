@@ -162,8 +162,8 @@ void context(const char* filename1, const char* filename2){
     buf[len + j++] = '<';
     buf[len + j++] = '\0';
 //    printf("%s\n", buf);
-    
-    
+
+
       para_printfile(strings1, count1, printleft);
       para_printfile(strings2, count2, printleft);
     return;
@@ -252,7 +252,7 @@ if(showsidebyside){printboth(files[0],files[1],suppresscommon,showsidebyside,sho
     diff_output_conflict_error();
   }
   
-showoptions(files[0], files[1]);
+//showoptions(files[0], files[1]);
   loadfiles(files[0], files[1]);
 }
 
